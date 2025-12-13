@@ -1,124 +1,82 @@
-# agent.py
 import numpy as np
-import torch
-import torch.nn as nn
-import torch.optim as optim
 
-# Policy Network for PPO (discrete action space)
-class PolicyNetwork(nn.Module):
-    def __init__(self, n_states, n_actions, hidden=64):
-        super().__init__()
+class QLearningAgent:
+    """
+    Q-Learning Agent capable of learning in a discrete environment.
+    Encapsulates the Q-table and the learning logic.
+    """
+    def __init__(self, n_states: int, n_actions: int, min_eps: float, eps_decay: float, lr: float = 0.5, gamma: float = 0.95):
+        """
+        Initialize the Q-Learning Agent.
 
-        self.model = nn.Sequential(
-            nn.Linear(n_states, hidden),
-            nn.ReLU(),
-            nn.Linear(hidden, hidden),
-            nn.ReLU(),
-            nn.Linear(hidden, n_actions),
-        )
-
-    def forward(self, x):
-        return self.model(x)
-
-
-# Value Network (baseline)
-class ValueNetwork(nn.Module):
-    def __init__(self, n_states, hidden=64):
-        super().__init__()
-
-        self.model = nn.Sequential(
-            nn.Linear(n_states, hidden),
-            nn.ReLU(),
-            nn.Linear(hidden, hidden),
-            nn.ReLU(),
-            nn.Linear(hidden, 1),
-        )
-
-    def forward(self, x):
-        return self.model(x)
-
-
-# PPO Agent (replaces QLearningAgent)
-class PPOAgent:
-    def __init__(self, n_states, n_actions, gamma=0.99, lr=3e-4, clip_eps=0.2):
+        Args:
+            n_states (int): Number of states in the environment.
+            n_actions (int): Number of possible actions.
+            min_eps (float): Minimum exploration rate.
+            eps_decay (float): Decay rate for epsilon per episode.
+            lr (float): Learning rate.
+            gamma (float): Discount factor.
+        """
         self.n_states = n_states
         self.n_actions = n_actions
+        self.min_eps = min_eps
+        self.eps_decay = eps_decay
+        self.lr = lr
         self.gamma = gamma
-        self.clip_eps = clip_eps
+        
+        # Initialize Q-table with zeros
+        self.q_table = np.zeros((n_states, n_actions))
+        
+        # Exploration parameters
+        self.epsilon = 1.0
 
-        self.policy = PolicyNetwork(n_states, n_actions)
-        self.value = ValueNetwork(n_states)
+    def select_action(self, state: int) -> int:
+        """
+        Select an action using the current policy (Epsilon-Greedy).
+        
+        Args:
+            state (int): The current state.
+            
+        Returns:
+            int: The selected action.
+        """
+        # Explore: select a random action
+        if np.random.random() < self.epsilon:
+            return np.random.randint(self.n_actions)
+        
+        # Exploit: select the action with max Q-value
+        # If multiple actions have the same max Q-value, this will pick the first one.
+        # Could be randomized among ties, but np.argmax is standard for simple implementations.
+        return np.argmax(self.q_table[state])
 
-        self.optimizer_policy = optim.Adam(self.policy.parameters(), lr=lr)
-        self.optimizer_value = optim.Adam(self.value.parameters(), lr=lr)
+    def update(self, state: int, action: int, reward: float, next_state: int):
+        """
+        Update the Q-table based on the transition.
+        
+        Args:
+            state (int): Previous state.
+            action (int): Action taken.
+            reward (float): Reward received.
+            next_state (int): Current state after action.
+        """
+        best_next_q = np.max(self.q_table[next_state])
+        td_target = reward + self.gamma * best_next_q
+        td_error = td_target - self.q_table[state, action]
+        
+        self.q_table[state, action] += self.lr * td_error
 
-        self.memory = []  # list of (state, action, reward, next_state, done, log_prob)
+    def decay_epsilon(self):
+        """
+        Decay the exploration rate (epsilon) after each episode.
+        Ensure it does not go below min_eps.
+        """
+        self.epsilon = max(self.epsilon - self.eps_decay, self.min_eps)
 
-    def get_action(self, state):
-        """Sample an action from the policy distribution."""
-        state_t = torch.FloatTensor(state).unsqueeze(0)
-
-        logits = self.policy(state_t)
-        dist = torch.distributions.Categorical(logits=logits)
-        action = dist.sample()
-        log_prob = dist.log_prob(action)
-
-        return action.item(), log_prob.detach()
-
-    def store(self, transition):
-        """Store a transition: (s, a, r, s', done, log_prob)."""
-        self.memory.append(transition)
-
-    def compute_returns(self):
-        """Compute discounted returns for PPO advantage."""
-        returns = []
-        G = 0
-        for _, _, r, _, done, _ in reversed(self.memory):
-            if done:
-                G = 0
-            G = r + self.gamma * G
-            returns.append(G)
-        returns.reverse()
-
-        returns = torch.tensor(returns, dtype=torch.float32)
-        returns = (returns - returns.mean()) / (returns.std() + 1e-8)
-        return returns
-
-    def ppo_update(self, epochs=4):
-        """Update policy using PPO clipped objective."""
-        states, actions, rewards, next_states, dones, log_probs_old = zip(*self.memory)
-
-        states = torch.FloatTensor(states)
-        actions = torch.LongTensor(actions)
-        log_probs_old = torch.stack(log_probs_old)
-
-        # Compute advantages
-        returns = self.compute_returns()
-        values = self.value(states).squeeze()
-        advantages = returns - values.detach()
-
-        for _ in range(epochs):
-            logits = self.policy(states)
-            dist = torch.distributions.Categorical(logits=logits)
-
-            log_probs = dist.log_prob(actions)
-            ratios = torch.exp(log_probs - log_probs_old)
-
-            # PPO clipped objective
-            surr1 = ratios * advantages
-            surr2 = torch.clamp(ratios, 1 - self.clip_eps, 1 + self.clip_eps) * advantages
-
-            policy_loss = -torch.min(surr1, surr2).mean()
-            value_loss = nn.MSELoss()(values, returns)
-
-            # Update policy
-            self.optimizer_policy.zero_grad()
-            policy_loss.backward()
-            self.optimizer_policy.step()
-
-            # Update value
-            self.optimizer_value.zero_grad()
-            value_loss.backward()
-            self.optimizer_value.step()
-
-        self.memory = []
+    def get_q_table(self) -> np.ndarray:
+        """
+        Return the Q-table.
+        
+        Returns:
+            np.ndarray: The Q-table.
+        """
+        return self.q_table
