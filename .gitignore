@@ -214,3 +214,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+part2/frozen_lake.py
+part2/frozen_lake_en.py
