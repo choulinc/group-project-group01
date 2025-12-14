@@ -5,7 +5,7 @@ class QLearningAgent:
     Q-Learning Agent capable of learning in a discrete environment.
     Encapsulates the Q-table and the learning logic.
     """
-    def __init__(self, n_states: int, n_actions: int, min_eps: float, eps_decay: float, lr: float = 0.5, gamma: float = 0.95):
+    def __init__(self, n_states: int, n_actions: int, min_eps: float, eps_decay: float, lr: float = 0.2, gamma: float = 0.99):
         """
         Initialize the Q-Learning Agent.
 

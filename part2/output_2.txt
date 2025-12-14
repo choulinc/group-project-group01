@@ -1,0 +1,589 @@
+=== Generation 1/100 ===
+  Ind 0: min_eps=0.0994, decay=0.00038 -> Rate: 0.000
+  Ind 1: min_eps=0.0871, decay=0.00007 -> Rate: 0.000
+  Ind 2: min_eps=0.0195, decay=0.00010 -> Rate: 0.629
+  Ind 3: min_eps=0.0184, decay=0.00025 -> Rate: 0.000
+  Ind 4: min_eps=0.0635, decay=0.00039 -> Rate: 0.000
+  Ind 5: min_eps=0.0347, decay=0.00033 -> Rate: 0.000
+  Ind 6: min_eps=0.0357, decay=0.00039 -> Rate: 0.000
+  Ind 7: min_eps=0.0525, decay=0.00040 -> Rate: 0.000
+  Ind 8: min_eps=0.0440, decay=0.00035 -> Rate: 0.000
+  Ind 9: min_eps=0.0523, decay=0.00030 -> Rate: 0.000
+  Ind 10: min_eps=0.0467, decay=0.00039 -> Rate: 0.000
+  Ind 11: min_eps=0.0455, decay=0.00003 -> Rate: 0.488
+Gen 1 Best Rate: 0.629
+
+=== Generation 2/100 ===
+  Ind 0: min_eps=0.0195, decay=0.00010 -> Rate: 0.593
+  Ind 1: min_eps=0.0663, decay=0.00001 -> Rate: 0.481
+  Ind 2: min_eps=0.0097, decay=0.00010 -> Rate: 0.345
+  Ind 3: min_eps=0.0319, decay=0.00014 -> Rate: 0.590
+  Ind 4: min_eps=0.0602, decay=0.00005 -> Rate: 0.520
+  Ind 5: min_eps=0.0545, decay=0.00021 -> Rate: 0.000
+  Ind 6: min_eps=0.0669, decay=0.00033 -> Rate: 0.000
+  Ind 7: min_eps=0.0589, decay=0.00031 -> Rate: 0.575
+  Ind 8: min_eps=0.0415, decay=0.00024 -> Rate: 0.401
+  Ind 9: min_eps=0.0698, decay=0.00024 -> Rate: 0.000
+  Ind 10: min_eps=0.0599, decay=0.00039 -> Rate: 0.281
+  Ind 11: min_eps=0.0663, decay=0.00005 -> Rate: 0.471
+Gen 2 Best Rate: 0.593
+
+=== Generation 3/100 ===
+  Ind 0: min_eps=0.0195, decay=0.00010 -> Rate: 0.000
+  Ind 1: min_eps=0.0461, decay=0.00018 -> Rate: 0.000
+  Ind 2: min_eps=0.0781, decay=0.00008 -> Rate: 0.494
+  Ind 3: min_eps=0.0491, decay=0.00003 -> Rate: 0.565
+  Ind 4: min_eps=0.0319, decay=0.00014 -> Rate: 0.478
+  Ind 5: min_eps=0.0693, decay=0.00003 -> Rate: 0.483
+  Ind 6: min_eps=0.0589, decay=0.00016 -> Rate: 0.419
+  Ind 7: min_eps=0.0663, decay=0.00003 -> Rate: 0.526
+  Ind 8: min_eps=0.0663, decay=0.00005 -> Rate: 0.465
+  Ind 9: min_eps=0.0491, decay=0.00001 -> Rate: 0.377
+  Ind 10: min_eps=0.0734, decay=0.00018 -> Rate: 0.533
+  Ind 11: min_eps=0.0429, decay=0.00011 -> Rate: 0.191
+Gen 3 Best Rate: 0.565
+
+=== Generation 4/100 ===
+  Ind 0: min_eps=0.0491, decay=0.00003 -> Rate: 0.396
+  Ind 1: min_eps=0.0491, decay=0.00008 -> Rate: 0.616
+  Ind 2: min_eps=0.0545, decay=0.00014 -> Rate: 0.572
+  Ind 3: min_eps=0.0636, decay=0.00005 -> Rate: 0.362
+  Ind 4: min_eps=0.0606, decay=0.00001 -> Rate: 0.471
+  Ind 5: min_eps=0.0838, decay=0.00018 -> Rate: 0.000
+  Ind 6: min_eps=0.0405, decay=0.00018 -> Rate: 0.566
+  Ind 7: min_eps=0.0405, decay=0.00008 -> Rate: 0.000
+  Ind 8: min_eps=0.0579, decay=0.00008 -> Rate: 0.552
+  Ind 9: min_eps=0.0596, decay=0.00017 -> Rate: 0.446
+  Ind 10: min_eps=0.0577, decay=0.00004 -> Rate: 0.373
+  Ind 11: min_eps=0.0550, decay=0.00011 -> Rate: 0.000
+Gen 4 Best Rate: 0.616
+
+=== Generation 5/100 ===
+  Ind 0: min_eps=0.0491, decay=0.00008 -> Rate: 0.401
+  Ind 1: min_eps=0.0481, decay=0.00008 -> Rate: 0.633
+  Ind 2: min_eps=0.0475, decay=0.00035 -> Rate: 0.000
+  Ind 3: min_eps=0.0366, decay=0.00016 -> Rate: 0.000
+  Ind 4: min_eps=0.0592, decay=0.00001 -> Rate: 0.420
+  Ind 5: min_eps=0.0521, decay=0.00001 -> Rate: 0.433
+  Ind 6: min_eps=0.0624, decay=0.00017 -> Rate: 0.559
+  Ind 7: min_eps=0.0448, decay=0.00013 -> Rate: 0.601
+  Ind 8: min_eps=0.0405, decay=0.00018 -> Rate: 0.330
+  Ind 9: min_eps=0.0592, decay=0.00005 -> Rate: 0.481
+  Ind 10: min_eps=0.0562, decay=0.00022 -> Rate: 0.000
+  Ind 11: min_eps=0.0501, decay=0.00017 -> Rate: 0.627
+Gen 5 Best Rate: 0.633
+
+=== Generation 6/100 ===
+  Ind 0: min_eps=0.0481, decay=0.00008 -> Rate: 0.525
+  Ind 1: min_eps=0.0768, decay=0.00009 -> Rate: 0.562
+  Ind 2: min_eps=0.0474, decay=0.00015 -> Rate: 0.613
+  Ind 3: min_eps=0.0481, decay=0.00008 -> Rate: 0.562
+  Ind 4: min_eps=0.0465, decay=0.00010 -> Rate: 0.474
+  Ind 5: min_eps=0.0433, decay=0.00003 -> Rate: 0.438
+  Ind 6: min_eps=0.0608, decay=0.00011 -> Rate: 0.464
+  Ind 7: min_eps=0.0472, decay=0.00015 -> Rate: 0.626
+  Ind 8: min_eps=0.0557, decay=0.00006 -> Rate: 0.482
+  Ind 9: min_eps=0.0547, decay=0.00002 -> Rate: 0.428
+  Ind 10: min_eps=0.0520, decay=0.00002 -> Rate: 0.498
+  Ind 11: min_eps=0.0485, decay=0.00007 -> Rate: 0.390
+Gen 6 Best Rate: 0.626
+
+=== Generation 7/100 ===
+  Ind 0: min_eps=0.0472, decay=0.00015 -> Rate: 0.523
+  Ind 1: min_eps=0.0481, decay=0.00009 -> Rate: 0.412
+  Ind 2: min_eps=0.0497, decay=0.00009 -> Rate: 0.361
+  Ind 3: min_eps=0.0574, decay=0.00015 -> Rate: 0.566
+  Ind 4: min_eps=0.0496, decay=0.00001 -> Rate: 0.463
+  Ind 5: min_eps=0.0477, decay=0.00023 -> Rate: 0.569
+  Ind 6: min_eps=0.0478, decay=0.00012 -> Rate: 0.586
+  Ind 7: min_eps=0.0481, decay=0.00017 -> Rate: 0.628
+  Ind 8: min_eps=0.0620, decay=0.00025 -> Rate: 0.592
+  Ind 9: min_eps=0.0625, decay=0.00009 -> Rate: 0.000
+  Ind 10: min_eps=0.0496, decay=0.00009 -> Rate: 0.000
+  Ind 11: min_eps=0.0497, decay=0.00009 -> Rate: 0.453
+Gen 7 Best Rate: 0.628
+
+=== Generation 8/100 ===
+  Ind 0: min_eps=0.0481, decay=0.00017 -> Rate: 0.000
+  Ind 1: min_eps=0.0489, decay=0.00025 -> Rate: 0.000
+  Ind 2: min_eps=0.0549, decay=0.00018 -> Rate: 0.000
+  Ind 3: min_eps=0.0525, decay=0.00019 -> Rate: 0.000
+  Ind 4: min_eps=0.0527, decay=0.00016 -> Rate: 0.516
+  Ind 5: min_eps=0.0477, decay=0.00023 -> Rate: 0.390
+  Ind 6: min_eps=0.0477, decay=0.00015 -> Rate: 0.593
+  Ind 7: min_eps=0.0527, decay=0.00016 -> Rate: 0.000
+  Ind 8: min_eps=0.0537, decay=0.00021 -> Rate: 0.000
+  Ind 9: min_eps=0.0546, decay=0.00028 -> Rate: 0.000
+  Ind 10: min_eps=0.0400, decay=0.00003 -> Rate: 0.524
+  Ind 11: min_eps=0.0603, decay=0.00026 -> Rate: 0.000
+Gen 8 Best Rate: 0.593
+
+=== Generation 9/100 ===
+  Ind 0: min_eps=0.0477, decay=0.00015 -> Rate: 0.000
+  Ind 1: min_eps=0.0444, decay=0.00014 -> Rate: 0.585
+  Ind 2: min_eps=0.0479, decay=0.00016 -> Rate: 0.558
+  Ind 3: min_eps=0.0479, decay=0.00029 -> Rate: 0.000
+  Ind 4: min_eps=0.0444, decay=0.00014 -> Rate: 0.000
+  Ind 5: min_eps=0.0438, decay=0.00025 -> Rate: 0.000
+  Ind 6: min_eps=0.0477, decay=0.00019 -> Rate: 0.000
+  Ind 7: min_eps=0.0379, decay=0.00016 -> Rate: 0.569
+  Ind 8: min_eps=0.0440, decay=0.00010 -> Rate: 0.539
+  Ind 9: min_eps=0.0447, decay=0.00014 -> Rate: 0.000
+  Ind 10: min_eps=0.0477, decay=0.00031 -> Rate: 0.000
+  Ind 11: min_eps=0.0542, decay=0.00014 -> Rate: 0.538
+Gen 9 Best Rate: 0.585
+
+=== Generation 10/100 ===
+  Ind 0: min_eps=0.0444, decay=0.00014 -> Rate: 0.457
+  Ind 1: min_eps=0.0509, decay=0.00014 -> Rate: 0.000
+  Ind 2: min_eps=0.0412, decay=0.00015 -> Rate: 0.630
+  Ind 3: min_eps=0.0511, decay=0.00006 -> Rate: 0.542
+  Ind 4: min_eps=0.0428, decay=0.00015 -> Rate: 0.000
+  Ind 5: min_eps=0.0508, decay=0.00010 -> Rate: 0.579
+  Ind 6: min_eps=0.0461, decay=0.00014 -> Rate: 0.000
+  Ind 7: min_eps=0.0460, decay=0.00013 -> Rate: 0.390
+  Ind 8: min_eps=0.0410, decay=0.00013 -> Rate: 0.364
+  Ind 9: min_eps=0.0410, decay=0.00013 -> Rate: 0.628
+  Ind 10: min_eps=0.0408, decay=0.00006 -> Rate: 0.003
+  Ind 11: min_eps=0.0493, decay=0.00012 -> Rate: 0.535
+Gen 10 Best Rate: 0.630
+
+=== Generation 11/100 ===
+  Ind 0: min_eps=0.0412, decay=0.00015 -> Rate: 0.000
+  Ind 1: min_eps=0.0452, decay=0.00013 -> Rate: 0.000
+  Ind 2: min_eps=0.0428, decay=0.00014 -> Rate: 0.484
+  Ind 3: min_eps=0.0509, decay=0.00008 -> Rate: 0.588
+  Ind 4: min_eps=0.0502, decay=0.00009 -> Rate: 0.453
+  Ind 5: min_eps=0.0493, decay=0.00012 -> Rate: 0.523
+  Ind 6: min_eps=0.0451, decay=0.00012 -> Rate: 0.585
+  Ind 7: min_eps=0.0460, decay=0.00001 -> Rate: 0.368
+  Ind 8: min_eps=0.0501, decay=0.00017 -> Rate: 0.530
+  Ind 9: min_eps=0.0428, decay=0.00011 -> Rate: 0.524
+  Ind 10: min_eps=0.0630, decay=0.00011 -> Rate: 0.476
+  Ind 11: min_eps=0.0525, decay=0.00012 -> Rate: 0.099
+Gen 11 Best Rate: 0.588
+
+=== Generation 12/100 ===
+  Ind 0: min_eps=0.0509, decay=0.00008 -> Rate: 0.338
+  Ind 1: min_eps=0.0509, decay=0.00008 -> Rate: 0.569
+  Ind 2: min_eps=0.0428, decay=0.00013 -> Rate: 0.000
+  Ind 3: min_eps=0.0503, decay=0.00011 -> Rate: 0.503
+  Ind 4: min_eps=0.0497, decay=0.00024 -> Rate: 0.000
+  Ind 5: min_eps=0.0505, decay=0.00012 -> Rate: 0.600
+  Ind 6: min_eps=0.0555, decay=0.00011 -> Rate: 0.000
+  Ind 7: min_eps=0.0521, decay=0.00010 -> Rate: 0.378
+  Ind 8: min_eps=0.0497, decay=0.00014 -> Rate: 0.000
+  Ind 9: min_eps=0.0451, decay=0.00012 -> Rate: 0.577
+  Ind 10: min_eps=0.0464, decay=0.00016 -> Rate: 0.000
+  Ind 11: min_eps=0.0451, decay=0.00012 -> Rate: 0.000
+Gen 12 Best Rate: 0.600
+
+=== Generation 13/100 ===
+  Ind 0: min_eps=0.0505, decay=0.00012 -> Rate: 0.443
+  Ind 1: min_eps=0.0506, decay=0.00009 -> Rate: 0.538
+  Ind 2: min_eps=0.0506, decay=0.00009 -> Rate: 0.562
+  Ind 3: min_eps=0.0491, decay=0.00012 -> Rate: 0.534
+  Ind 4: min_eps=0.0515, decay=0.00009 -> Rate: 0.000
+  Ind 5: min_eps=0.0507, decay=0.00010 -> Rate: 0.515
+  Ind 6: min_eps=0.0521, decay=0.00010 -> Rate: 0.528
+  Ind 7: min_eps=0.0407, decay=0.00008 -> Rate: 0.393
+  Ind 8: min_eps=0.0598, decay=0.00010 -> Rate: 0.585
+  Ind 9: min_eps=0.0504, decay=0.00014 -> Rate: 0.624
+  Ind 10: min_eps=0.0509, decay=0.00032 -> Rate: 0.485
+  Ind 11: min_eps=0.0507, decay=0.00010 -> Rate: 0.570
+Gen 13 Best Rate: 0.624
+
+=== Generation 14/100 ===
+  Ind 0: min_eps=0.0504, decay=0.00014 -> Rate: 0.633
+  Ind 1: min_eps=0.0491, decay=0.00016 -> Rate: 0.200
+  Ind 2: min_eps=0.0499, decay=0.00011 -> Rate: 0.475
+  Ind 3: min_eps=0.0552, decay=0.00021 -> Rate: 0.000
+  Ind 4: min_eps=0.0506, decay=0.00012 -> Rate: 0.568
+  Ind 5: min_eps=0.0506, decay=0.00014 -> Rate: 0.394
+  Ind 6: min_eps=0.0506, decay=0.00017 -> Rate: 0.000
+  Ind 7: min_eps=0.0498, decay=0.00006 -> Rate: 0.614
+  Ind 8: min_eps=0.0426, decay=0.00010 -> Rate: 0.000
+  Ind 9: min_eps=0.0499, decay=0.00011 -> Rate: 0.000
+  Ind 10: min_eps=0.0666, decay=0.00012 -> Rate: 0.360
+  Ind 11: min_eps=0.0499, decay=0.00011 -> Rate: 0.588
+Gen 14 Best Rate: 0.633
+
+=== Generation 15/100 ===
+  Ind 0: min_eps=0.0504, decay=0.00014 -> Rate: 0.561
+  Ind 1: min_eps=0.0502, decay=0.00001 -> Rate: 0.406
+  Ind 2: min_eps=0.0501, decay=0.00013 -> Rate: 0.475
+  Ind 3: min_eps=0.0444, decay=0.00012 -> Rate: 0.603
+  Ind 4: min_eps=0.0552, decay=0.00012 -> Rate: 0.000
+  Ind 5: min_eps=0.0498, decay=0.00009 -> Rate: 0.530
+  Ind 6: min_eps=0.0505, decay=0.00013 -> Rate: 0.000
+  Ind 7: min_eps=0.0503, decay=0.00013 -> Rate: 0.518
+  Ind 8: min_eps=0.0455, decay=0.00010 -> Rate: 0.623
+  Ind 9: min_eps=0.0503, decay=0.00015 -> Rate: 0.552
+  Ind 10: min_eps=0.0732, decay=0.00009 -> Rate: 0.468
+  Ind 11: min_eps=0.0503, decay=0.00022 -> Rate: 0.000
+Gen 15 Best Rate: 0.623
+
+=== Generation 16/100 ===
+  Ind 0: min_eps=0.0455, decay=0.00010 -> Rate: 0.000
+  Ind 1: min_eps=0.0474, decay=0.00014 -> Rate: 0.000
+  Ind 2: min_eps=0.0477, decay=0.00001 -> Rate: 0.417
+  Ind 3: min_eps=0.0498, decay=0.00009 -> Rate: 0.524
+  Ind 4: min_eps=0.0501, decay=0.00016 -> Rate: 0.635
+  Ind 5: min_eps=0.0501, decay=0.00011 -> Rate: 0.000
+  Ind 6: min_eps=0.0484, decay=0.00021 -> Rate: 0.516
+  Ind 7: min_eps=0.0704, decay=0.00014 -> Rate: 0.000
+  Ind 8: min_eps=0.0477, decay=0.00010 -> Rate: 0.604
+  Ind 9: min_eps=0.0473, decay=0.00010 -> Rate: 0.518
+  Ind 10: min_eps=0.0471, decay=0.00009 -> Rate: 0.528
+  Ind 11: min_eps=0.0504, decay=0.00014 -> Rate: 0.494
+Gen 16 Best Rate: 0.635
+
+=== Generation 17/100 ===
+  Ind 0: min_eps=0.0501, decay=0.00016 -> Rate: 0.483
+  Ind 1: min_eps=0.0474, decay=0.00009 -> Rate: 0.000
+  Ind 2: min_eps=0.0549, decay=0.00010 -> Rate: 0.600
+  Ind 3: min_eps=0.0491, decay=0.00009 -> Rate: 0.537
+  Ind 4: min_eps=0.0478, decay=0.00015 -> Rate: 0.522
+  Ind 5: min_eps=0.0488, decay=0.00009 -> Rate: 0.000
+  Ind 6: min_eps=0.0478, decay=0.00015 -> Rate: 0.000
+  Ind 7: min_eps=0.0486, decay=0.00009 -> Rate: 0.521
+  Ind 8: min_eps=0.0478, decay=0.00023 -> Rate: 0.488
+  Ind 9: min_eps=0.0477, decay=0.00006 -> Rate: 0.507
+  Ind 10: min_eps=0.0486, decay=0.00009 -> Rate: 0.000
+  Ind 11: min_eps=0.0561, decay=0.00018 -> Rate: 0.000
+Gen 17 Best Rate: 0.600
+
+=== Generation 18/100 ===
+  Ind 0: min_eps=0.0549, decay=0.00010 -> Rate: 0.399
+  Ind 1: min_eps=0.0520, decay=0.00009 -> Rate: 0.378
+  Ind 2: min_eps=0.0517, decay=0.00009 -> Rate: 0.562
+  Ind 3: min_eps=0.0488, decay=0.00009 -> Rate: 0.255
+  Ind 4: min_eps=0.0478, decay=0.00019 -> Rate: 0.000
+  Ind 5: min_eps=0.0482, decay=0.00020 -> Rate: 0.000
+  Ind 6: min_eps=0.0481, decay=0.00008 -> Rate: 0.428
+  Ind 7: min_eps=0.0513, decay=0.00016 -> Rate: 0.000
+  Ind 8: min_eps=0.0513, decay=0.00023 -> Rate: 0.527
+  Ind 9: min_eps=0.0311, decay=0.00008 -> Rate: 0.000
+  Ind 10: min_eps=0.0481, decay=0.00008 -> Rate: 0.595
+  Ind 11: min_eps=0.0517, decay=0.00009 -> Rate: 0.607
+Gen 18 Best Rate: 0.607
+
+=== Generation 19/100 ===
+  Ind 0: min_eps=0.0517, decay=0.00009 -> Rate: 0.000
+  Ind 1: min_eps=0.0513, decay=0.00038 -> Rate: 0.000
+  Ind 2: min_eps=0.0425, decay=0.00016 -> Rate: 0.533
+  Ind 3: min_eps=0.0513, decay=0.00023 -> Rate: 0.000
+  Ind 4: min_eps=0.0499, decay=0.00009 -> Rate: 0.258
+  Ind 5: min_eps=0.0515, decay=0.00025 -> Rate: 0.000
+  Ind 6: min_eps=0.0481, decay=0.00008 -> Rate: 0.197
+  Ind 7: min_eps=0.0481, decay=0.00008 -> Rate: 0.597
+  Ind 8: min_eps=0.0497, decay=0.00016 -> Rate: 0.000
+  Ind 9: min_eps=0.0515, decay=0.00009 -> Rate: 0.555
+  Ind 10: min_eps=0.0527, decay=0.00023 -> Rate: 0.000
+  Ind 11: min_eps=0.0481, decay=0.00008 -> Rate: 0.609
+Gen 19 Best Rate: 0.609
+
+=== Generation 20/100 ===
+  Ind 0: min_eps=0.0481, decay=0.00008 -> Rate: 0.581
+  Ind 1: min_eps=0.0481, decay=0.00030 -> Rate: 0.000
+  Ind 2: min_eps=0.0481, decay=0.00001 -> Rate: 0.284
+  Ind 3: min_eps=0.0515, decay=0.00009 -> Rate: 0.000
+  Ind 4: min_eps=0.0453, decay=0.00003 -> Rate: 0.452
+  Ind 5: min_eps=0.0453, decay=0.00012 -> Rate: 0.595
+  Ind 6: min_eps=0.0481, decay=0.00008 -> Rate: 0.589
+  Ind 7: min_eps=0.0453, decay=0.00012 -> Rate: 0.584
+  Ind 8: min_eps=0.0515, decay=0.00009 -> Rate: 0.000
+  Ind 9: min_eps=0.0453, decay=0.00012 -> Rate: 0.000
+  Ind 10: min_eps=0.0481, decay=0.00008 -> Rate: 0.545
+  Ind 11: min_eps=0.0498, decay=0.00008 -> Rate: 0.543
+Gen 20 Best Rate: 0.595
+
+=== Generation 21/100 ===
+  Ind 0: min_eps=0.0453, decay=0.00012 -> Rate: 0.600
+  Ind 1: min_eps=0.0467, decay=0.00010 -> Rate: 0.507
+  Ind 2: min_eps=0.0490, decay=0.00012 -> Rate: 0.000
+  Ind 3: min_eps=0.0198, decay=0.00008 -> Rate: 0.662
+  Ind 4: min_eps=0.0490, decay=0.00001 -> Rate: 0.384
+  Ind 5: min_eps=0.0310, decay=0.00016 -> Rate: 0.462
+  Ind 6: min_eps=0.0490, decay=0.00008 -> Rate: 0.457
+  Ind 7: min_eps=0.0490, decay=0.00011 -> Rate: 0.553
+  Ind 8: min_eps=0.0467, decay=0.00010 -> Rate: 0.543
+  Ind 9: min_eps=0.0481, decay=0.00008 -> Rate: 0.416
+  Ind 10: min_eps=0.0481, decay=0.00021 -> Rate: 0.000
+  Ind 11: min_eps=0.0486, decay=0.00001 -> Rate: 0.156
+Gen 21 Best Rate: 0.662
+
+=== Generation 22/100 ===
+  Ind 0: min_eps=0.0198, decay=0.00008 -> Rate: 0.607
+  Ind 1: min_eps=0.0254, decay=0.00012 -> Rate: 0.607
+  Ind 2: min_eps=0.0453, decay=0.00004 -> Rate: 0.360
+  Ind 3: min_eps=0.0382, decay=0.00014 -> Rate: 0.547
+  Ind 4: min_eps=0.0478, decay=0.00001 -> Rate: 0.455
+  Ind 5: min_eps=0.0354, decay=0.00014 -> Rate: 0.000
+  Ind 6: min_eps=0.0478, decay=0.00010 -> Rate: 0.563
+  Ind 7: min_eps=0.0485, decay=0.00013 -> Rate: 0.000
+  Ind 8: min_eps=0.0332, decay=0.00018 -> Rate: 0.000
+  Ind 9: min_eps=0.0254, decay=0.00012 -> Rate: 0.473
+  Ind 10: min_eps=0.0157, decay=0.00016 -> Rate: 0.000
+  Ind 11: min_eps=0.0344, decay=0.00009 -> Rate: 0.622
+Gen 22 Best Rate: 0.622
+
+=== Generation 23/100 ===
+  Ind 0: min_eps=0.0344, decay=0.00009 -> Rate: 0.594
+  Ind 1: min_eps=0.0254, decay=0.00012 -> Rate: 0.613
+  Ind 2: min_eps=0.0254, decay=0.00023 -> Rate: 0.000
+  Ind 3: min_eps=0.0299, decay=0.00011 -> Rate: 0.524
+  Ind 4: min_eps=0.0411, decay=0.00010 -> Rate: 0.462
+  Ind 5: min_eps=0.0274, decay=0.00011 -> Rate: 0.404
+  Ind 6: min_eps=0.0366, decay=0.00028 -> Rate: 0.536
+  Ind 7: min_eps=0.0478, decay=0.00017 -> Rate: 0.000
+  Ind 8: min_eps=0.0318, decay=0.00007 -> Rate: 0.579
+  Ind 9: min_eps=0.0299, decay=0.00009 -> Rate: 0.587
+  Ind 10: min_eps=0.0254, decay=0.00014 -> Rate: 0.000
+  Ind 11: min_eps=0.0030, decay=0.00012 -> Rate: 0.600
+Gen 23 Best Rate: 0.613
+
+=== Generation 24/100 ===
+  Ind 0: min_eps=0.0254, decay=0.00012 -> Rate: 0.000
+  Ind 1: min_eps=0.0187, decay=0.00003 -> Rate: 0.533
+  Ind 2: min_eps=0.0333, decay=0.00023 -> Rate: 0.000
+  Ind 3: min_eps=0.0299, decay=0.00001 -> Rate: 0.505
+  Ind 4: min_eps=0.0344, decay=0.00009 -> Rate: 0.458
+  Ind 5: min_eps=0.0271, decay=0.00012 -> Rate: 0.526
+  Ind 6: min_eps=0.0331, decay=0.00017 -> Rate: 0.599
+  Ind 7: min_eps=0.0187, decay=0.00011 -> Rate: 0.610
+  Ind 8: min_eps=0.0198, decay=0.00020 -> Rate: 0.300
+  Ind 9: min_eps=0.0198, decay=0.00020 -> Rate: 0.631
+  Ind 10: min_eps=0.0310, decay=0.00020 -> Rate: 0.000
+  Ind 11: min_eps=0.0342, decay=0.00041 -> Rate: 0.000
+Gen 24 Best Rate: 0.631
+
+=== Generation 25/100 ===
+  Ind 0: min_eps=0.0198, decay=0.00020 -> Rate: 0.000
+  Ind 1: min_eps=0.0117, decay=0.00008 -> Rate: 0.592
+  Ind 2: min_eps=0.0198, decay=0.00020 -> Rate: 0.604
+  Ind 3: min_eps=0.0243, decay=0.00002 -> Rate: 0.488
+  Ind 4: min_eps=0.0193, decay=0.00011 -> Rate: 0.000
+  Ind 5: min_eps=0.0285, decay=0.00007 -> Rate: 0.572
+  Ind 6: min_eps=0.0259, decay=0.00008 -> Rate: 0.488
+  Ind 7: min_eps=0.0198, decay=0.00020 -> Rate: 0.545
+  Ind 8: min_eps=0.0229, decay=0.00008 -> Rate: 0.000
+  Ind 9: min_eps=0.0307, decay=0.00022 -> Rate: 0.000
+  Ind 10: min_eps=0.0229, decay=0.00011 -> Rate: 0.502
+  Ind 11: min_eps=0.0193, decay=0.00015 -> Rate: 0.000
+Gen 25 Best Rate: 0.604
+
+=== Generation 26/100 ===
+  Ind 0: min_eps=0.0198, decay=0.00020 -> Rate: 0.000
+  Ind 1: min_eps=0.0258, decay=0.00012 -> Rate: 0.567
+  Ind 2: min_eps=0.0242, decay=0.00013 -> Rate: 0.557
+  Ind 3: min_eps=0.0045, decay=0.00001 -> Rate: 0.402
+  Ind 4: min_eps=0.0198, decay=0.00020 -> Rate: 0.000
+  Ind 5: min_eps=0.0155, decay=0.00005 -> Rate: 0.608
+  Ind 6: min_eps=0.0243, decay=0.00002 -> Rate: 0.451
+  Ind 7: min_eps=0.0214, decay=0.00016 -> Rate: 0.000
+  Ind 8: min_eps=0.0198, decay=0.00016 -> Rate: 0.000
+  Ind 9: min_eps=0.0221, decay=0.00011 -> Rate: 0.510
+  Ind 10: min_eps=0.0285, decay=0.00005 -> Rate: 0.566
+  Ind 11: min_eps=0.0158, decay=0.00014 -> Rate: 0.490
+Gen 26 Best Rate: 0.608
+
+=== Generation 27/100 ===
+  Ind 0: min_eps=0.0155, decay=0.00005 -> Rate: 0.367
+  Ind 1: min_eps=0.0207, decay=0.00021 -> Rate: 0.587
+  Ind 2: min_eps=0.0156, decay=0.00009 -> Rate: 0.571
+  Ind 3: min_eps=0.0263, decay=0.00009 -> Rate: 0.408
+  Ind 4: min_eps=0.0208, decay=0.00013 -> Rate: 0.000
+  Ind 5: min_eps=0.0258, decay=0.00001 -> Rate: 0.494
+  Ind 6: min_eps=0.0272, decay=0.00008 -> Rate: 0.599
+  Ind 7: min_eps=0.0207, decay=0.00008 -> Rate: 0.467
+  Ind 8: min_eps=0.0285, decay=0.00001 -> Rate: 0.429
+  Ind 9: min_eps=0.0211, decay=0.00005 -> Rate: 0.452
+  Ind 10: min_eps=0.0207, decay=0.00008 -> Rate: 0.590
+  Ind 11: min_eps=0.0221, decay=0.00001 -> Rate: 0.460
+Gen 27 Best Rate: 0.599
+
+=== Generation 28/100 ===
+  Ind 0: min_eps=0.0272, decay=0.00008 -> Rate: 0.535
+  Ind 1: min_eps=0.0233, decay=0.00011 -> Rate: 0.568
+  Ind 2: min_eps=0.0207, decay=0.00015 -> Rate: 0.000
+  Ind 3: min_eps=0.0156, decay=0.00009 -> Rate: 0.445
+  Ind 4: min_eps=0.0151, decay=0.00015 -> Rate: 0.483
+  Ind 5: min_eps=0.0220, decay=0.00015 -> Rate: 0.576
+  Ind 6: min_eps=0.0131, decay=0.00031 -> Rate: 0.597
+  Ind 7: min_eps=0.0239, decay=0.00008 -> Rate: 0.559
+  Ind 8: min_eps=0.0265, decay=0.00005 -> Rate: 0.546
+  Ind 9: min_eps=0.0207, decay=0.00001 -> Rate: 0.571
+  Ind 10: min_eps=0.0339, decay=0.00023 -> Rate: 0.296
+  Ind 11: min_eps=0.0207, decay=0.00008 -> Rate: 0.591
+Gen 28 Best Rate: 0.597
+
+=== Generation 29/100 ===
+  Ind 0: min_eps=0.0131, decay=0.00031 -> Rate: 0.000
+  Ind 1: min_eps=0.0176, decay=0.00023 -> Rate: 0.563
+  Ind 2: min_eps=0.0226, decay=0.00014 -> Rate: 0.562
+  Ind 3: min_eps=0.0213, decay=0.00022 -> Rate: 0.637
+  Ind 4: min_eps=0.0223, decay=0.00009 -> Rate: 0.580
+  Ind 5: min_eps=0.0223, decay=0.00005 -> Rate: 0.536
+  Ind 6: min_eps=0.0178, decay=0.00013 -> Rate: 0.000
+  Ind 7: min_eps=0.0311, decay=0.00008 -> Rate: 0.576
+  Ind 8: min_eps=0.0034, decay=0.00042 -> Rate: 0.000
+  Ind 9: min_eps=0.0239, decay=0.00017 -> Rate: 0.000
+  Ind 10: min_eps=0.0185, decay=0.00019 -> Rate: 0.377
+  Ind 11: min_eps=0.0131, decay=0.00029 -> Rate: 0.000
+Gen 29 Best Rate: 0.637
+
+=== Generation 30/100 ===
+  Ind 0: min_eps=0.0213, decay=0.00022 -> Rate: 0.561
+  Ind 1: min_eps=0.0199, decay=0.00016 -> Rate: 0.556
+  Ind 2: min_eps=0.0267, decay=0.00008 -> Rate: 0.579
+  Ind 3: min_eps=0.0199, decay=0.00026 -> Rate: 0.588
+  Ind 4: min_eps=0.0232, decay=0.00007 -> Rate: 0.503
+  Ind 5: min_eps=0.0218, decay=0.00014 -> Rate: 0.000
+  Ind 6: min_eps=0.0369, decay=0.00024 -> Rate: 0.623
+  Ind 7: min_eps=0.0223, decay=0.00005 -> Rate: 0.347
+  Ind 8: min_eps=0.0197, decay=0.00018 -> Rate: 0.000
+  Ind 9: min_eps=0.0199, decay=0.00016 -> Rate: 0.550
+  Ind 10: min_eps=0.0267, decay=0.00006 -> Rate: 0.588
+  Ind 11: min_eps=0.0405, decay=0.00016 -> Rate: 0.000
+Gen 30 Best Rate: 0.623
+
+=== Generation 31/100 ===
+  Ind 0: min_eps=0.0369, decay=0.00024 -> Rate: 0.360
+  Ind 1: min_eps=0.0264, decay=0.00025 -> Rate: 0.000
+  Ind 2: min_eps=0.0284, decay=0.00001 -> Rate: 0.537
+  Ind 3: min_eps=0.0284, decay=0.00024 -> Rate: 0.000
+  Ind 4: min_eps=0.0240, decay=0.00013 -> Rate: 0.352
+  Ind 5: min_eps=0.0284, decay=0.00025 -> Rate: 0.000
+  Ind 6: min_eps=0.0240, decay=0.00001 -> Rate: 0.487
+  Ind 7: min_eps=0.0199, decay=0.00030 -> Rate: 0.000
+  Ind 8: min_eps=0.0143, decay=0.00024 -> Rate: 0.000
+  Ind 9: min_eps=0.0304, decay=0.00025 -> Rate: 0.632
+  Ind 10: min_eps=0.0252, decay=0.00011 -> Rate: 0.534
+  Ind 11: min_eps=0.0068, decay=0.00024 -> Rate: 0.000
+Gen 31 Best Rate: 0.632
+
+=== Generation 32/100 ===
+  Ind 0: min_eps=0.0304, decay=0.00025 -> Rate: 0.000
+  Ind 1: min_eps=0.0305, decay=0.00018 -> Rate: 0.627
+  Ind 2: min_eps=0.0327, decay=0.00012 -> Rate: 0.000
+  Ind 3: min_eps=0.0205, decay=0.00004 -> Rate: 0.475
+  Ind 4: min_eps=0.0311, decay=0.00019 -> Rate: 0.000
+  Ind 5: min_eps=0.0278, decay=0.00018 -> Rate: 0.000
+  Ind 6: min_eps=0.0336, decay=0.00024 -> Rate: 0.550
+  Ind 7: min_eps=0.0305, decay=0.00024 -> Rate: 0.000
+  Ind 8: min_eps=0.0265, decay=0.00019 -> Rate: 0.540
+  Ind 9: min_eps=0.0305, decay=0.00018 -> Rate: 0.000
+  Ind 10: min_eps=0.0305, decay=0.00006 -> Rate: 0.532
+  Ind 11: min_eps=0.0336, decay=0.00024 -> Rate: 0.000
+Gen 32 Best Rate: 0.627
+
+=== Generation 33/100 ===
+  Ind 0: min_eps=0.0305, decay=0.00018 -> Rate: 0.564
+  Ind 1: min_eps=0.0255, decay=0.00011 -> Rate: 0.549
+  Ind 2: min_eps=0.0321, decay=0.00015 -> Rate: 0.000
+  Ind 3: min_eps=0.0061, decay=0.00001 -> Rate: 0.344
+  Ind 4: min_eps=0.0350, decay=0.00021 -> Rate: 0.000
+  Ind 5: min_eps=0.0305, decay=0.00022 -> Rate: 0.000
+  Ind 6: min_eps=0.0305, decay=0.00018 -> Rate: 0.579
+  Ind 7: min_eps=0.0221, decay=0.00024 -> Rate: 0.000
+  Ind 8: min_eps=0.0305, decay=0.00018 -> Rate: 0.437
+  Ind 9: min_eps=0.0321, decay=0.00021 -> Rate: 0.000
+  Ind 10: min_eps=0.0241, decay=0.00014 -> Rate: 0.000
+  Ind 11: min_eps=0.0335, decay=0.00024 -> Rate: 0.000
+Gen 33 Best Rate: 0.579
+
+=== Generation 34/100 ===
+  Ind 0: min_eps=0.0305, decay=0.00018 -> Rate: 0.000
+  Ind 1: min_eps=0.0214, decay=0.00001 -> Rate: 0.500
+  Ind 2: min_eps=0.0482, decay=0.00020 -> Rate: 0.000
+  Ind 3: min_eps=0.0280, decay=0.00026 -> Rate: 0.559
+  Ind 4: min_eps=0.0280, decay=0.00015 -> Rate: 0.506
+  Ind 5: min_eps=0.0191, decay=0.00005 -> Rate: 0.566
+  Ind 6: min_eps=0.0280, decay=0.00015 -> Rate: 0.474
+  Ind 7: min_eps=0.0288, decay=0.00013 -> Rate: 0.561
+  Ind 8: min_eps=0.0305, decay=0.00018 -> Rate: 0.605
+  Ind 9: min_eps=0.0305, decay=0.00018 -> Rate: 0.000
+  Ind 10: min_eps=0.0255, decay=0.00011 -> Rate: 0.584
+  Ind 11: min_eps=0.0280, decay=0.00006 -> Rate: 0.000
+Gen 34 Best Rate: 0.605
+
+=== Generation 35/100 ===
+  Ind 0: min_eps=0.0305, decay=0.00018 -> Rate: 0.000
+  Ind 1: min_eps=0.0248, decay=0.00020 -> Rate: 0.563
+  Ind 2: min_eps=0.0305, decay=0.00018 -> Rate: 0.490
+  Ind 3: min_eps=0.0364, decay=0.00044 -> Rate: 0.000
+  Ind 4: min_eps=0.0284, decay=0.00016 -> Rate: 0.000
+  Ind 5: min_eps=0.0223, decay=0.00008 -> Rate: 0.612
+  Ind 6: min_eps=0.0191, decay=0.00005 -> Rate: 0.572
+  Ind 7: min_eps=0.0394, decay=0.00017 -> Rate: 0.000
+  Ind 8: min_eps=0.0096, decay=0.00015 -> Rate: 0.000
+  Ind 9: min_eps=0.0267, decay=0.00019 -> Rate: 0.591
+  Ind 10: min_eps=0.0047, decay=0.00026 -> Rate: 0.495
+  Ind 11: min_eps=0.0248, decay=0.00012 -> Rate: 0.000
+Gen 35 Best Rate: 0.612
+
+=== Generation 36/100 ===
+  Ind 0: min_eps=0.0223, decay=0.00008 -> Rate: 0.600
+  Ind 1: min_eps=0.0257, decay=0.00014 -> Rate: 0.531
+  Ind 2: min_eps=0.0230, decay=0.00015 -> Rate: 0.616
+  Ind 3: min_eps=0.0366, decay=0.00020 -> Rate: 0.594
+  Ind 4: min_eps=0.0320, decay=0.00015 -> Rate: 0.592
+  Ind 5: min_eps=0.0264, decay=0.00004 -> Rate: 0.453
+  Ind 6: min_eps=0.0245, decay=0.00014 -> Rate: 0.601
+  Ind 7: min_eps=0.0424, decay=0.00008 -> Rate: 0.546
+  Ind 8: min_eps=0.0185, decay=0.00001 -> Rate: 0.526
+  Ind 9: min_eps=0.0286, decay=0.00010 -> Rate: 0.618
+  Ind 10: min_eps=0.0286, decay=0.00019 -> Rate: 0.481
+  Ind 11: min_eps=0.0441, decay=0.00021 -> Rate: 0.582
+Gen 36 Best Rate: 0.618
+
+=== Generation 37/100 ===
+  Ind 0: min_eps=0.0286, decay=0.00010 -> Rate: 0.601
+  Ind 1: min_eps=0.0265, decay=0.00012 -> Rate: 0.000
+  Ind 2: min_eps=0.0263, decay=0.00015 -> Rate: 0.642
+  Ind 3: min_eps=0.0343, decay=0.00015 -> Rate: 0.266
+  Ind 4: min_eps=0.0295, decay=0.00009 -> Rate: 0.442
+  Ind 5: min_eps=0.0112, decay=0.00011 -> Rate: 0.569
+  Ind 6: min_eps=0.0304, decay=0.00015 -> Rate: 0.438
+  Ind 7: min_eps=0.0275, decay=0.00011 -> Rate: 0.277
+  Ind 8: min_eps=0.0271, decay=0.00012 -> Rate: 0.000
+  Ind 9: min_eps=0.0303, decay=0.00012 -> Rate: 0.577
+  Ind 10: min_eps=0.0366, decay=0.00015 -> Rate: 0.000
+  Ind 11: min_eps=0.0420, decay=0.00014 -> Rate: 0.585
+Gen 37 Best Rate: 0.642
+
+=== Generation 38/100 ===
+  Ind 0: min_eps=0.0263, decay=0.00015 -> Rate: 0.000
+  Ind 1: min_eps=0.0286, decay=0.00010 -> Rate: 0.476
+  Ind 2: min_eps=0.0279, decay=0.00010 -> Rate: 0.565
+  Ind 3: min_eps=0.0353, decay=0.00012 -> Rate: 0.527
+  Ind 4: min_eps=0.0353, decay=0.00012 -> Rate: 0.000
+  Ind 5: min_eps=0.0303, decay=0.00012 -> Rate: 0.576
+  Ind 6: min_eps=0.0291, decay=0.00009 -> Rate: 0.000
+  Ind 7: min_eps=0.0204, decay=0.00001 -> Rate: 0.469
+  Ind 8: min_eps=0.0275, decay=0.00004 -> Rate: 0.429
+  Ind 9: min_eps=0.0188, decay=0.00013 -> Rate: 0.541
+  Ind 10: min_eps=0.0303, decay=0.00012 -> Rate: 0.000
+  Ind 11: min_eps=0.0283, decay=0.00014 -> Rate: 0.000
+Gen 38 Best Rate: 0.576
+
+=== Generation 39/100 ===
+  Ind 0: min_eps=0.0303, decay=0.00012 -> Rate: 0.000
+  Ind 1: min_eps=0.0278, decay=0.00006 -> Rate: 0.580
+  Ind 2: min_eps=0.0286, decay=0.00010 -> Rate: 0.442
+  Ind 3: min_eps=0.0245, decay=0.00013 -> Rate: 0.000
+  Ind 4: min_eps=0.0315, decay=0.00008 -> Rate: 0.450
+  Ind 5: min_eps=0.0353, decay=0.00010 -> Rate: 0.511
+  Ind 6: min_eps=0.0234, decay=0.00011 -> Rate: 0.578
+  Ind 7: min_eps=0.0319, decay=0.00011 -> Rate: 0.580
+  Ind 8: min_eps=0.0204, decay=0.00011 -> Rate: 0.306
+  Ind 9: min_eps=0.0270, decay=0.00012 -> Rate: 0.612
+  Ind 10: min_eps=0.0245, decay=0.00005 -> Rate: 0.495
+  Ind 11: min_eps=0.0245, decay=0.00013 -> Rate: 0.558
+Gen 39 Best Rate: 0.612
+
+=== Generation 40/100 ===
+  Ind 0: min_eps=0.0270, decay=0.00012 -> Rate: 0.588
+  Ind 1: min_eps=0.0319, decay=0.00004 -> Rate: 0.231
+  Ind 2: min_eps=0.0375, decay=0.00015 -> Rate: 0.605

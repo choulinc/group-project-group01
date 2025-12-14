@@ -97,15 +97,26 @@ class GeneticOptimizer(Optimizer):
         best_overall_rate = -1.0
         best_overall_params = (0.0, 0.0)
 
+        # Create or append to log file
+        with open("training_log.txt", "w", encoding="utf-8") as f:
+            f.write("Starting Optimization...\n")
+
         for gen in range(self.generations):
-            print(f"\n=== Generation {gen+1}/{self.generations} ===", flush=True)
+            header = f"\n=== Generation {gen+1}/{self.generations} ==="
+            print(header, flush=True)
+            with open("training_log.txt", "a", encoding="utf-8") as f:
+                f.write(header + "\n")
             
             # 2. Evaluate Fitness
             fitness_scores = []
             for i, ind in enumerate(population):
                 score = self._evaluate_individual(ind)
                 fitness_scores.append((score, ind))
-                print(f"  Ind {i}: min_eps={ind[0]:.4f}, decay={ind[1]:.5f} -> Rate: {score:.3f}", flush=True)
+                
+                log_msg = f"  Ind {i}: min_eps={ind[0]:.4f}, decay={ind[1]:.5f} -> Rate: {score:.3f}"
+                print(log_msg, flush=True)
+                with open("training_log.txt", "a", encoding="utf-8") as f:
+                    f.write(log_msg + "\n")
                 
                 if score > best_overall_rate:
                     best_overall_rate = score
@@ -114,9 +125,6 @@ class GeneticOptimizer(Optimizer):
             # Sort by fitness (descending)
             fitness_scores.sort(key=lambda x: x[0], reverse=True)
             
-            # Check if we hit the target strongly? (Optional early stopping)
-            # if best_overall_rate > 0.8: break 
-
             # 3. Selection (Top 50%)
             survivors = fitness_scores[:self.population_size // 2]
             survivor_inds = [x[1] for x in survivors]
@@ -135,7 +143,15 @@ class GeneticOptimizer(Optimizer):
                 new_population.append(child)
                 
             population = new_population
-            print(f"Gen {gen+1} Best Rate: {survivors[0][0]:.3f}", flush=True)
+            
+            best_gen_msg = f"Gen {gen+1} Best Rate: {survivors[0][0]:.3f}"
+            print(best_gen_msg, flush=True)
+            with open("training_log.txt", "a", encoding="utf-8") as f:
+                f.write(best_gen_msg + "\n")
 
-        print(f"\nGenetic Optimization Best: {best_overall_params} with Rate: {best_overall_rate}", flush=True)
+        final_msg = f"\nGenetic Optimization Best: {best_overall_params} with Rate: {best_overall_rate}"
+        print(final_msg, flush=True)
+        with open("training_log.txt", "a", encoding="utf-8") as f:
+            f.write(final_msg + "\n")
+            
         return (*best_overall_params, best_overall_rate)
